@@ -1,0 +1,9 @@
+package com.infinite.dao.jpa;
+
+import java.io.Serializable;
+
+import com.infinite.dao.EntityDAO;
+
+public class JPAEntityDAO<T, PK extends Serializable>  implements EntityDAO<T, PK> {
+
+}

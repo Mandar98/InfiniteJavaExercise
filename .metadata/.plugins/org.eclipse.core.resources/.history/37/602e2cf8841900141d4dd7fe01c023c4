@@ -1,0 +1,7 @@
+package com.infinite.dao.jpa;
+
+import com.infinite.dao.EntityDAO;
+
+public class JPAEntityDAO implements EntityDAO {
+
+}

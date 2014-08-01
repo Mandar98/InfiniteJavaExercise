@@ -1,0 +1,33 @@
+package com.infinite.dao.jpa;
+
+import java.io.Serializable;
+
+import com.infinite.dao.EntityDAO;
+
+public class JPAEntityDAO<T, PK extends Serializable>  implements EntityDAO<T, PK> {
+
+	@Override
+	public T create(T t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public T read(PK id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public T update(T t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(T t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
