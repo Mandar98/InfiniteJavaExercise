@@ -1,7 +1,0 @@
-package com.infinite.dao;
-
-import java.io.Serializable;
-
-public interface EntityDAO<T, PK extends Serializable> {
-
-}
